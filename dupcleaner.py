@@ -75,7 +75,6 @@ def find_duplicates(root_path):
     else:
         print("No duplicate files found.")
 
-# Example usage
 if __name__ == "__main__":
     while True:
         files_path = input("Enter the path to check for duplicates[Enter (Exit) to close]: ").strip()
